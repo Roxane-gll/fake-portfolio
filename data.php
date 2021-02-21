@@ -1,58 +1,58 @@
 <?php
 $realisations = [
     [
-        "title" => "Linux",
-        "description" => "Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991. Linux is typically packaged in a Linux distribution.",
-        "image" => "https://p4.wallpaperbetter.com/wallpaper/980/964/908/linux-minimalism-foxyriot-tux-wallpaper-preview.jpg",
-        "link" => "https://github.com/torvalds/linux"
+        "title" => "Site Constéllation",
+        "description" => "C'est un projet d'école qui consistait à crée un site d'éxposition en HTML/CSS sur un sujet libre, j'ai choisi les constélations. </br>Le site n'est pas sur internet",
+        "image" => "images/constvisu2.jpg",
+        "link" => "./realisations.php"
     ],
     [
-        "title" => "PHP",
-        "description" => "PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.",
-        "image" => "https://www.live-rates.com/system/blogs/attachments/000/000/026/original/php1.jpg?1547433041",
-        "link" => "https://www.php.net/"
+        "title" => "Workshop",
+        "description" => "C'est l'integration d'une maquette d'un site 'onepage' uniquement en HTML/CSS, tout en ajoutant des fonctionnalités de notre choix, dans ce site, des coffre sont caché. </br>Le site n'est pas sur internet",
+        "image" => "images/workshopvisu.png",
+        "link" => "./realisations.php"
     ],
     [
-        "title" => "Laravel",
-        "description" => "Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. ",
-        "image" => "https://i.pinimg.com/originals/0b/07/e6/0b07e6c038ceecfb02d3b96bda9c8738.png",
-        "link" => "https://github.com/laravel/laravel"
+        "title" => "Bataille Navale",
+        "description" => "C'est un ancien projet d'école que j'ai décider de refaire en HTML/CSS et JS. Il consiste en une bataille Navale en solo avec un seul bateau à trouver et avec un espace de recherche ",
+        "image" => "images/batailleNavale.png",
+        "link" => "./realisations.php"
     ],
     [
         "title" => "Git",
-        "description" => "Git is a distributed version-control system for tracking changes in any set of files, originally designed for coordinating work among programmers cooperating on source code during software development.[8] Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems).",
+        "description" => "Ce compte git a été crée pour mes cours de PHP et de Système. Ce portfolio est l'un des TP.",
         "image" => "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
-        "link" => "https://git-scm.com/"
+        "link" => "./realisations.php"
     ]
 
 ];
 
 
 $user = [
-    "name" => "Marie-Louise Bourreau",
-    "job"=> "Développeuse / Photographe",
-    "url"=> "https://images.unsplash.com/photo-1474978528675-4a50a4508dc3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+    "name" => "Roxane Guella",
+    "job"=> "Développeuse",
+    "url"=> "images/fond-cookie.jpg"
 ];
     
 
 $formation = [
-    "year" => "2017/2019 - BDDI1",
+    "year" => "2020/2023 - BDDI1",
     "name" => "École des gobelins",
-    "description" => "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+    "description" => "Je suis en formation au gobelins Annecy en tant que developpeuse Web et Mobile."
 ];
 
 $passions = [
     [
-    "name" => "Photographie",
-    "description" => "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+    "name" => "Jeux vidéos",
+    "description" => "Le jeu vidéo me passionne, autant dans le développement que dans l'éxperiance de jeu. J'apprécie principalement les jeu avec des graphisme développé et une histoire qui me plonge dans de nouveaux mondes."
     ],
     [
-    "name" => "Sports extrêmes",
-    "description" => "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+    "name" => "Musique",
+    "description" => "La musique me calme et me permet de me recentrer sur moi-même. J'aime tout les types de musiques, tout dépent de l'ambiance dans laquelle je veux me plonger."
     ],
     [
-    "name" => "Théâtre",
-    "description" => "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+    "name" => "Psycologie",
+    "description" => "La psycologie humaine m'intrigue, j'aime savoir pourquoi les gens agisssent comme ils le font. Je suis particulièrement intéressée par la criminologie."
     ],
     
 ];
