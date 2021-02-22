@@ -1,7 +1,7 @@
 <?php
 require "./data.php";
     
-$random=rand(1,2);
+$random=rand(1,3);
 ?>
 
 <html>
